@@ -1,0 +1,882 @@
+/* CSS Document */
+
+body {
+	background:none repeat scroll 0 0 #E9E9FF;
+	margin: 10px auto;
+	position:relative;
+	width: /*95%*/ 1230px;
+}
+
+input[type="checkbox"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    margin-right: 10px;
+}
+
+input.invalidDate {
+    background-color: #FFB2B2;
+    border-color: #FF0000;
+    padding: 0px;
+}
+
+.borderBox .label {
+	width:100%;
+}
+
+.button {
+	text-align:center;
+	min-width:65px;
+}
+
+.closeIcon {
+	background:url("/applications/pricing/images/empty.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+	display: none;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    width: 5%;
+}
+
+.contactNameEditIcon {
+	position:relative !important;
+}
+
+.customerNumberEditIcon {
+	position:relative !important;
+}
+
+.dateBox{
+	display:inline-block;
+	float:right;
+}
+
+.dateBox label {
+	margin-left:10px;
+}
+
+.dateEntry {
+	background: #ffffff;
+	border-color: #999999 #D0D0D0 #D5D5D5;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    line-height: 20px;
+    padding: 1px 3px 2px;
+    vertical-align: middle;
+	width:86px;
+}
+
+.dateEntry input {
+	color:#484848;
+	margin: 3px 0 0;
+	width:70px;
+}
+
+.deleteIcon {
+	background:url("/applications/pricing/images/delete.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+	display:inline-block;
+	float: right;
+    height: 15px;
+    vertical-align: top;
+    width: 7%;
+}
+
+.dragIcon {
+	background:url("/applications/pricing/images/drag.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+	display:inline-block;
+	float: right;
+    height: 15px;
+    vertical-align: top;
+    width: 15%;
+}
+
+.editIcon {
+	background: url("/applications/MSROptions/images/pencil.svg") no-repeat scroll right center rgba(0, 0, 0, 0);
+	cursor:pointer;
+	display: none;
+	height:16px;
+    position: absolute;
+    right: 0;
+	top: 0;
+    width: 30px;
+}
+
+.invalidField {
+    background-color: #ffb2b2;
+    border-color: #ff0000;
+    padding: 0;
+}
+
+.laneContainer {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-radius:5px;
+	display: none;
+	height: 725px;
+    margin: 0 0 0 5.5%;
+	padding-top:1px;
+    position: relative;
+    width: 74%;
+}
+
+.laneId {
+	color: #476079;
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 3% 0 0;
+}
+
+.laneLine {
+	margin: 15px auto;
+    position: relative;
+    width: 96%;
+}
+
+.laneType {
+    display: inline-block;
+    padding: 4px 3px;
+}
+.matchQuoteType {
+	display:inline-block;
+	width: 28px;
+}
+.matchQuoteNum {
+	display:inline-block;
+	width: 72px;
+}
+
+.matchCustNumber {
+	display:inline-block;
+	width: 70px;
+}
+.matchCustName {
+	display:inline-block;
+	width: 175px;
+}
+.matchCityName {
+	display:inline-block;
+	width: 90px;
+}
+.matchState {
+	display:inline-block;
+	width: 30px;
+}
+.matchCounty {
+	display:inline-block;
+	width: 80px;
+}
+.matchZip {
+	display:inline-block;
+	width: 60px;
+}
+.matchDate {
+	display:inline-block;
+	width: 60px;
+}
+
+
+.proposalNumberEditIcon {
+	position:relative !important;
+}
+
+.stopCounter {
+    background: none repeat scroll 0 0 #D00000;
+    border-radius: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -15px;
+    padding: 0 10px;
+    position: absolute;
+    text-align: center;
+    width: 14px;
+}
+
+.stopPanel {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(177, 127, 127);
+    border-radius: 4px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.224);
+    display: none;
+    font-size: 14px;
+    left: 50%;
+    margin-left: -138px;
+    padding: 10px;
+    position: absolute;
+    top: 55px;
+    width: 250px;
+    z-index: 1000;
+}
+
+.stopPanel > ul > li {
+	background:white;
+	margin-bottom:8px;
+}
+
+.stopTriangle {
+	background: url("/applications/pricing/images/stopArrow.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    height: 13px;
+	left: 50%;
+    margin-left: -18px;
+	position: absolute;
+	top:-10px;
+    width: 37px;
+}
+
+/* A class used by the jQuery UI CSS framework for their dialogs. */
+.ui-datepicker {
+	z-index:100 !important;
+}
+.ui-front {
+    z-index:1000000 !important; /* The default is 100. !important overrides the default. */
+}
+
+#accessorials {
+	background:none repeat scroll 0 0 white;
+	border-color:#A2BFF0 #558BE3 #558BE3 #A2BFF0;
+	border-style:solid;
+	border-width:1px;
+	color:black;
+	display:none;
+	left:78px;
+	margin-left: 42;
+	padding: 0;
+	position:absolute;
+    width:250px;
+	z-index:1000;
+}
+
+#accessorials li {
+	cursor:pointer;
+	list-style-type:none;
+	margin-bottom:2px;
+	padding:3px;
+}
+
+#accessorialsDropdown {
+	position:absolute;
+}
+
+#borderSelect {
+	border-color: #999999 #D0D0D0 #D5D5D5;
+    border-style: solid;
+    border-width: 1px;
+	display:none;
+	margin: 10px 5px;
+    padding: 4px 5px 3px;
+    width: 52%;
+}
+
+#contactBlock {
+	margin: 0 5.5% 30px;
+}
+
+#contactEmail {
+	color: #6F7D8A;
+	display:inline-block;
+}
+
+#contactName {
+	cursor:pointer;
+}
+
+#contactName > span {
+	color: #7AA6D0;
+	display:inline-block;
+	float:left;
+    font-size: 1.2em;
+	font-weight:bold;
+	padding: 3px 0;
+}
+
+#contactName > .editIcon {
+	float:left;
+	position:relative;
+	right:auto;
+}
+
+#contactNameEdit {
+	display:none;
+	float:left;
+    font-size: 1.2em;
+}
+
+#contactPhone {
+	border-right: 1px solid;
+	color: #6F7D8A;
+	display:inline-block;
+	margin-right:1%;
+	padding-right:1%;
+}
+
+
+#contactTitle {
+	border-right: 1px solid;
+	color: #6F7D8A;
+	display:inline-block;
+	margin-right:1%;
+	padding-right:1%;
+}
+
+#custAddress {
+	display:inline-block;
+	float:left;
+	width:60%;
+}
+#custAddress p {
+	font-weight:bold;
+	margin:5px 0 0 2em;
+}
+
+#custContact {
+	display:inline-block;
+	width:35%;
+}
+#custContact p {
+	font-weight:bold;
+	margin:5px 0 0 1em;
+}
+
+#custInfoBox {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px #A1A1A1;
+    display: none;
+    margin-left: 30px;
+    margin-top: -1.7em;
+    padding: 1em;
+    position: absolute;
+    width: 35%;
+    z-index: 100;
+}
+#custInfoBoxArrow {
+	border-color: rgba(0, 0, 0, 0) #FFFFFF rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 7px;
+    height: 0;
+    left: -14px;
+    margin-top: -7px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    z-index: 110;
+}
+
+#custInfoIcon {
+	background: url("/applications/pricing/images/info.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+    display:none;
+    height: 20px;
+    margin-left: 2%;
+    width: 20px;
+}
+
+#customerBlock {
+	margin: 0 5.5%;
+}
+
+#customerName {
+	display: inline-block;
+	margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+#customerNumber {
+	cursor:pointer;
+	display:block;
+	margin:0;
+	width:25%;
+}
+
+#customerNumber > span {
+	color: #7AA6D0;
+	display:inline-block;
+    font-size: 1.6em;
+	font-weight:normal;
+	padding: 3px 0;
+}
+
+#customerNumberEdit {
+	display:none;
+    font-size: 1.6em;
+}
+
+#custSearch {
+	float: right;
+}
+
+#destLabel {
+	color:#008000;
+	cursor:pointer;
+	font-weight:bold;
+	right:-7.5%;
+}
+
+#destTag {
+	background: url("/applications/pricing/images/dest.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+}
+#destTag.pos1 {
+	right: 0%;
+    top: -50px;
+}
+#destTag.pos2 {
+	right: 0%;
+    top: -50px;
+}
+#destTag.pos3 {
+	right: 0%;
+	top:0;
+}
+
+#emailButton {
+	background: none repeat scroll 0 0 #7AA6D0;
+    color: #FFFFFF;
+    display: none;
+    float: right;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px;
+}
+#emailButton.disabled {
+	cursor: default;
+    opacity: .3;
+}
+#emailForm {
+    width: 550px;
+    margin:auto;
+    text-align: center;
+}
+#emailForm h2 {
+	margin-bottom: 30px;
+    text-align: left;
+}
+#emailForm input, #emailForm textarea, #emailForm select {
+    width: 500px;
+}
+#emailTo, #emailCc {
+	margin-bottom: 5px;
+}
+#emailBcc {
+	margin-bottom: 15px;
+}
+#emailAttachments {
+	margin-bottom: 40px;
+}
+#emailSubject {
+    margin-bottom: 15px;
+}
+#emailForm div {
+    width: 500px;
+    margin-top: 15px;
+    text-align: right;
+    display: inline-block;
+}
+#emailForm button {
+    padding: 5px 10px 5px 10px;
+}
+#entryBox {
+	background:white;
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+	width:77%;
+	z-index:100;
+}
+#entryBox .searchBox {
+	width: 50%;
+}
+
+#geoBlock {
+	display: none;
+	margin:50px 0 20px;
+	position:relative;
+	width: 100%;	
+}
+#geoBlock h3 {
+	color:#42589D;
+}
+
+#geoSearchList {
+	display:none;
+	left: 31%;
+    position: absolute;
+    top: 50px;
+    width: 38%;
+}
+
+#header {
+	height: 0;
+	position:absolute;
+	width:100%;
+}
+
+#headerButtons {
+	float: right;
+}
+
+#laneLine {
+	background:#800000;
+	bottom:32px;
+	height:6px;
+	position:absolute;
+}
+#laneLine.pos1 {
+	left:50%;
+	width:0px;
+}
+#laneLine.pos2 {
+	left: 3%;
+    width: 94%;
+}
+#laneLine.pos3 {
+	left: 3%;
+    width: 94%;
+}
+
+#laneMap {
+	height: 75px;
+    margin: 0 auto;
+    position: relative;
+    width: 77%;
+}
+
+#laneMap > .label {
+	width:20%;
+}
+
+#laneMap .borderBox {
+}
+#laneMap .borderBox .border {
+	border-color: transparent transparent #fec300 transparent;
+	border-style: solid;
+	border-width: 0 19px 32.9px 19px;
+	height: 0;
+	margin: 18px auto;
+	position:relative;
+	width: 0;
+}
+#laneMap .borderBox .border .borderCenter {
+	border-color: transparent transparent #ffffff transparent;
+	border-style: solid;
+	border-width: 0 9px 15.6px 9px;
+	height: 0;
+	margin: 11px -9px;
+	position:absolute;
+	width: 0;
+}
+
+#laneMap .label {
+	position:absolute;
+	text-align: center;
+	top: 55px;
+}
+
+#laneMap .mapPoint {
+	display:inline-block;
+	left: 13%;
+	position:relative;
+    width: 80%;
+	z-index:100;
+}
+
+#laneMap .stopBox {
+	z-index:200;
+} 
+#laneMap .stopBox .stop {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 6px solid #FF0000;
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+	margin: 18px auto;
+    width: 20px;
+}
+#laneMap .tag {
+	height:50px;
+	position: absolute;
+	width:30px;
+	z-index:50;
+}
+
+#lanePoints {
+	margin:10px auto;
+	width:60%;
+}
+#lanePoints li {
+    font-size: 1.3em;
+    margin: 8px 0;
+}
+#lanePoints .dest {
+	color:#008000;
+	font-weight:bold;
+}
+#lanePoints .origin {
+	color:#4690CF;
+	font-weight:bold;
+}
+#lanePoints .stopBox {
+	bottom:32px;
+	left: 14%;
+	position:absolute;
+    width: 72%;
+}
+#lanePoints .stopBox .stop {
+	margin-left:10%;
+}
+
+#lanePointsDropdown {
+	width:75%;
+}
+
+#logo {
+    background: url("/applications/pricing/images/logo.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 82px;
+    width: 50px;
+}
+#matchBox {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(177, 127, 127);
+    border-radius: 4px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.224);
+    display: block;
+    font-size: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 33px;
+	width:100%;
+    z-index: 1000;
+}
+#matchIndicator {
+	background: url("/applications/pricing/images/match3.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+	cursor: pointer;
+    display: none;
+    height: 35px;
+    left: 50%;
+    margin-top: -8px;
+    position: absolute;
+    width: 35px;
+}
+
+#matchIndicator .duplicateCount {
+	border-radius: 8px;
+    color: #FF0000;
+    cursor: pointer;
+	display:none;
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+    margin: -23px 0 0 35px;
+    position: relative;
+    text-align: center;
+}
+/*#matchIndicator .duplicateCount.alone {
+	float:none;
+	margin: -16px auto 0;
+}*/
+
+#matchIndicator .matchCount {
+	background: none repeat scroll 0 0 #EFC75E;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    margin: -16px 0 0;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    width: 14px;
+}
+/*#matchIndicator .matchCount.alone {
+	float:none;
+	margin: -16px auto 0;
+}*/
+#matchList li {
+	margin-bottom:5px;
+	position:relative;
+	overflow-y: auto;
+}
+
+/* linkify the proposal number */
+#matchTable tbody tr td:nth-child(2){
+	color:blue;
+	cursor:pointer;
+}
+
+#newButton {
+	background: none repeat scroll 0 0 #009900;
+	color: #FFFFFF;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 5px;
+	border: none;
+	right: 0;
+	text-align: center;
+	width: 65px;
+	display: none;
+}
+
+#originLabel {
+	color:#4690CF;
+	cursor:pointer;
+	font-weight:bold;
+	left:-7.5%;
+}
+
+#originTag {
+	background: url("/applications/pricing/images/org.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+    z-index: 50;
+}
+#originTag.pos1 {
+	left: 46%;
+    top: -50px;
+}
+#originTag.pos2 {
+	left: 46%;
+	top:0;
+}
+#originTag.pos3 {
+	left: 0%;
+	top: 0;
+}
+
+#propMessage {
+	background: none repeat scroll 0 0 #4285F4;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: none;
+    font-weight: bold;
+	height:15px;
+    left: 50%;
+    margin-left: -4%;
+    margin-top: 7px;
+    padding: 3px 10px;
+    position: absolute;
+    text-align: center;
+    width: 8%;
+}
+#propMessage .locked {
+	background: none repeat scroll 0 0 #FFFF00;
+	color: #000000;
+}
+
+#propMessageSpinner {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#proposalBlock {
+	margin: 0 0 10px 5.5%;
+	position:relative;
+    width: 74%;
+}
+#proposalNumber {
+	cursor:pointer;
+	display: inline-block;	
+	margin: 0;
+}
+
+#proposalNumber span {
+	display:inline-block;
+	font-size:inherit;
+	padding:3px 0;
+}	
+
+#proposalNumberEdit {
+	display:none;
+}
+
+#proposalLane {
+	display: inline;
+	margin-left: 5px;
+}
+
+#rateBlock {
+	bottom:0;
+	display:block;
+	height:400px;
+	margin-left: 2%;
+	padding:6px 0 20px;
+	position:absolute;
+	visibility:hidden;
+	width:95%;
+}	
+#rateInfo {
+	background: #E6EBEF;
+	z-index: 1;
+	border: 2px solid black;
+	width: 200px;
+	position: absolute;
+	display: none;
+	padding: 10px;
+}
+#rateInfo td:first-child {
+	padding-right: 10px;
+	font-weight: bold;
+	vertical-align: top;
+}
+#rateTotal {
+	display:inline-block;
+	margin:5px 1%;
+	position:absolute;
+	right:0;
+}
+
+#saveRates {
+	display: none;
+	float: right;
+    text-align: center;
+    width: 65px;
+}
+#saveRates.disabled {
+	cursor: default;
+	opacity: .3;
+}
+
+#sLoading {
+	display:none;
+	left: 400px;
+    top: 100px;
+	z-index:600;
+}
+#sMask {
+	display:none;
+	height: 240px;
+    left: 1px;
+    position: absolute;
+    top: 43px;
+    width: 867px;
+    z-index: 100;
+}
+#stats ul {
+    position: relative;
+    z-index: 99;
+}
+#stats.placeholder {
+	text-align: center;
+    font-style: italic;
+}
+#stats div:first-child {
+    font-weight: bold;
+}
+#stats div:last-child {
+	margin-bottom: 20px;
+}
+#tempTag {
+	display:none;
+	height:inherit;
+	left: 10%;
+	position:relative;
+    /*width: 58.5%;*/
+	width:80%;
+	z-index:100;
+}

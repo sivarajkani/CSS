@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.custSearchResults {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #A2BFF0 #558BE3 #558BE3 #A2BFF0;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    display: none;
+    margin: 0;
+    max-height: 460px;
+    overflow-y: auto;
+    padding: 0;
+    position: absolute;
+    width: 90%;
+    z-index: 1010;
+}
+
+.custSearchResults li{
+	background-color: #FFFFFF;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 8px 5%;
+}
+.custSearchResults li.selected{
+	background-color:#DDDDDD;
+}
+
+.custSearchResults li:hover{
+	background:#DDDDDD;
+}
+
+.custSearchResults li > .formattedNumber {
+	display: inline-block;
+    overflow: auto;
+    text-align: right;
+    width: 40%;
+}
+.custSearchResults li > .location {
+	color: #757575;
+    display: block;
+    font-size: 0.9em;
+    margin-top: -3px;
+}
+.custSearchResults li > .name {
+	color: #47607F;
+    display: inline-block;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 60%;
+}

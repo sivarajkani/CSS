@@ -1,0 +1,32 @@
+.regionCust {
+	color: #7aa6d0;
+    display: inline-block;
+    width: 20%;
+}
+
+.regionEffDate {
+	display: inline-block;
+    min-width: 18%;
+    text-align: right;
+}
+
+.regionName {
+	display: inline-block;
+    font-size: 1.3em;
+	font-weight: bold;
+	/*overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;*/
+    width: 60%;
+}
+
+#regionDetailHeader {
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+#regionDetailTable {
+	width: 50%;
+}

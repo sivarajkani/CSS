@@ -1,0 +1,2443 @@
+/* CSS Document */
+.attributesBar {
+	background-color: #b3b3b3;
+	border-color: #858585;
+	border-style:solid;
+	border-width: 1px 1px 0px 1px;
+	display: none;
+    left: 93px;
+	position: absolute;
+	width: 302px;
+	z-index: 1001;
+}
+.attributesButton {
+    background-color: #b3b3b3;
+	display: inline-block;
+	padding: 5px 3px;
+	width: 30.6%;
+}
+.attributesButtonSelected {
+	background-color: white;
+    color: #1FB118;;
+}
+.deficitDetail {
+	background-color: #e6e6e6;
+}
+.deficitEditIcon {
+	text-align: right;
+}
+#attributes{
+	width: 90px;
+}
+#deficits li {
+	cursor:pointer;
+	list-style-type:none;
+	margin-bottom:2px;
+	padding:3px;
+}
+
+#deficits li span {
+	text-transform:capitalize;
+}
+
+#deficitsDropdown {
+	background:none repeat scroll 0 0 white;
+	border-color: #858585;
+	border-style:solid;
+	border-width: 0px 1px 1px 1px;
+	color:black;
+	display:none;
+	height: 229px;
+	overflow-y: auto;
+	padding: 2%;
+	position:absolute;
+    width: 95%;
+	z-index:1000;
+}
+
+#deficits {
+	text-transform: capitalize;
+}
+#getDeficits.disabled{
+	cursor: not-allowed;
+    opacity: .3;
+    pointer-events: none;
+}
+#viewDeficitDetails {
+    background: url(/applications/pricing/Images/view_deficit_details.png) no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 24px;
+    margin: 1px 11px -1.5px 6px;
+    padding: 2px;
+    width: 24px;
+}
+#viewDeficitDetails.viewingDeficits {
+    background: url(/applications/pricing/Images/viewing_deficit_details.png) no-repeat scroll right 0 rgba(0, 0, 0, 0);
+}
+#viewDeficitDetails.disabled {
+    cursor: not-allowed;
+    opacity: .3;
+    pointer-events: none;
+}
+
+body {
+	background:none repeat scroll 0 0 #F6F6F6;
+	position:relative;
+}
+
+input[type="checkbox"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    margin-right: 10px;
+}
+
+input.invalidDate {
+    background-color: #FFB2B2;
+    border-color: #FF0000;
+    padding: 0px;
+}
+input.invalidLane {
+    background-color: #ffb2b2;
+    border-color: #ff0000;
+    padding: 0;
+}
+
+select {
+	padding: 4px 3px;
+}
+
+/* DataTable tool overwrite */
+
+table.dataTable tbody tr.selected {
+    background-color: #b0bed9;
+}
+
+div.DTE_Field input[type="color"],
+div.DTE_Field input[type="date"],
+div.DTE_Field input[type="datetime"],
+div.DTE_Field input[type="datetime-local"],
+div.DTE_Field input[type="email"],
+div.DTE_Field input[type="month"],
+div.DTE_Field input[type="number"],
+div.DTE_Field input[type="password"],
+div.DTE_Field input[type="search"],
+div.DTE_Field input[type="tel"],
+div.DTE_Field input[type="text"],
+div.DTE_Field input[type="time"],
+div.DTE_Field input[type="url"],
+div.DTE_Field input[type="week"] {
+    padding: 4px;
+}
+
+.accessMulti {
+	text-transform: capitalize;
+	width: 49% !important;
+}
+.accessMulti > ul > li > label {
+	border: 0px;
+}
+.accessMulti > ul > li > label.ui-state-hover {
+	background:none repeat scroll 0 0 white;
+	border: none;
+}
+
+.asterisk {
+	background: url("/applications/pricing/images/asterisk.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	display: none;
+	height: 10px;
+	position: absolute;
+	width: 10px;
+}
+
+.auditFailed {
+	background: url("/applications/pricing/images/smallBang.png") no-repeat scroll 98% center rgba(0, 0, 0, 0);
+}
+.auditPassed {
+	background: url("/applications/pricing/images/smallCheck.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.borderBox .label {
+	width:100%;
+}
+
+.button {
+    border: none;
+	text-align:center;
+	min-width:65px;
+}
+
+.chargeInfoLabel {
+	color: #858585;
+	display: block;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+.closeIcon {
+	background:url("/applications/pricing/images/empty.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+	display: none;
+	height: 15px;
+	position: absolute;
+	top: 30px;
+	width: 5%;
+}
+
+.closeWindow {
+	background:url("/applications/pricing/images/closeWindow.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+}
+
+.contactNameEditIcon {
+	position:relative !important;
+}
+
+.customerNumberEditIcon {
+	position:relative !important;
+}
+
+.dataTables_scroll{
+	clear: both;
+}  
+
+.dateBox{
+	display:inline-block;
+	float:right;
+}
+
+.dateBox label {
+	margin-left:10px;
+}
+
+.dateEntry {
+	background: #ffffff;
+	border-color: #999999 #D0D0D0 #D5D5D5;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    line-height: 20px;
+    padding: 1px 3px 2px;
+    vertical-align: middle;
+	width:86px;
+}
+
+.dateEntry input {
+	color:#484848;
+	margin: 3px 0 0;
+	width:70px;
+}
+
+.deleteIcon {
+	background:url("/applications/pricing/images/delete.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+	display:inline-block;
+	float: right;
+    height: 15px;
+    vertical-align: top;
+    width: 7%;
+}
+
+.destTag {
+    background: url("/applications/pricing/images/dest.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+}
+
+.dragIcon {
+	background:url("/applications/pricing/images/drag.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+	display:inline-block;
+	float: right;
+    height: 15px;
+    vertical-align: top;
+    width: 15%;
+}
+.editIcon {
+	background: url("/applications/Pricing/images/pencil.svg") no-repeat scroll right center rgba(0, 0, 0, 0);
+	cursor:pointer;
+	display: none;
+	height:16px;
+    position: absolute;
+    right: 0;
+	top: -4px;
+    width: 25px;
+}
+
+.editCustLane {
+}
+
+.exLink {
+	background: url("/applications/pricing/images/externalLink.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+	cursor: pointer;
+	display: inline-block;
+	height: 14px;
+	margin-left: 8px;
+	width: 14px;
+}
+.gridTotals{
+	display: inline-block;
+	font-weight: 500;
+    left: 28%;
+    position: absolute;
+    width: 371px;
+}
+.gridTotalHdr{
+	
+}
+.invalidField {
+    background-color: #ffb2b2 !important;
+    border-color: #ff0000;
+    padding: 0;
+}
+
+.laneContainer {
+	background:none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #dbdbdb;
+	border-radius:0 0 5px 5px;
+    border-top: 0px;
+	display: none;
+	height: 725px;
+    position: relative;
+    width: 905px;
+	z-index: 50;
+}
+
+.laneId {
+	color: #476079;
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 3% 0 0;
+}
+
+.laneType {
+    display: inline-block;
+    padding: 4px 3px;
+}
+.laneUser {
+    display: inline-block;
+    padding: 4px 3px;
+}
+
+.hamburgerLines {
+    background: none repeat scroll 0 0 #ecf0f1;
+    border-radius: 1px;
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 26px;
+}
+.hamburgerLines:before, .hamburgerLines:after {
+    background: none repeat scroll 0 0 #ecf0f1;
+    border-radius: 1px;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    transform-origin: 0.28571rem center 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 26px;
+}
+.hamburgerLines:before {
+    top: 8px;
+}
+.hamburgerLines:after {
+    top: -8px;
+}
+
+.hamburgerLines-button.x.close .hamburgerLines {
+    background: none repeat scroll 0 0 transparent;
+}
+.hamburgerLines-button.x.close .hamburgerLines:before, .hamburgerLines-button.x.close .hamburgerLines:after {
+    top: 0;
+    transform-origin: 50% 50% 0;
+    width: 26px;
+}
+.hamburgerLines-button.x.close .hamburgerLines:before {
+    transform: rotate3d(0, 0, 1, 45deg);
+}
+.hamburgerLines-button.x.close .hamburgerLines:after {
+    transform: rotate3d(0, 0, 1, -45deg);
+}
+
+.matchQuoteType {
+	display:inline-block;
+	width: 28px;
+}
+.matchQuoteNum {
+	display:inline-block;
+	width: 72px;
+}
+
+.matchCustNumber {
+	display:inline-block;
+	width: 70px;
+}
+.matchCustName {
+	display:inline-block;
+	width: 175px;
+}
+.matchCityName {
+	display:inline-block;
+	width: 90px;
+}
+.matchState {
+	display:inline-block;
+	width: 30px;
+}
+.matchCounty {
+	display:inline-block;
+	width: 80px;
+}
+.matchZip {
+	display:inline-block;
+	width: 60px;
+}
+.matchDate {
+	display:inline-block;
+	width: 60px;
+}
+.minChrgInfo{
+	display: inline-block;
+	width: 32%;
+}
+.minChrgInfo input {
+	border: none;
+	display: none;
+	font-size: 1.5em;
+	margin-top: .5em;
+	padding: 0;
+	width: 100%;
+}
+.minChrgInfo span {
+	color: #ffffff;
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+  	margin-top: .5em;
+}
+
+.miniRate {
+	float: left;
+	margin-right: 8%;
+	width: 25%;
+}
+.miniRateLabel {
+	color: #47607f;
+	font-size: .9em;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+.miniRateVal {
+	font-size: 1.2em;
+	margin-bottom: 8px;
+}
+
+.miniLaneUser {
+	float: left;
+	margin-right: 8%;
+	width: 25%;
+}
+.miniUserLabel {
+	color: #47607f;
+	font-size: .9em;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+.miniUserVal {
+	font-size: 1em;
+	margin-bottom: 8px;
+}
+
+.originTag {
+    background: url("/applications/pricing/images/org.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+}
+
+.panelTitle {
+    font-size: 2em;
+    font-weight: 200;
+    margin: 12px 0 .5em;
+    text-align: center;
+    width: 100%;
+}
+
+.plusLines {
+	background: none repeat scroll 0 0 #ecf0f1;
+	display: inline-block;
+	height: 3px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	width: 12px;
+}
+.plusLines:after {
+	background: none repeat scroll 0 0 #ecf0f1;
+	content: "";
+	display: inline-block;
+	height: 3px;
+	left: 0;
+	position: absolute;
+    transform: rotate3d(0, 0, 1, -90deg);
+    -webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	width: 12px;
+}
+
+.plusLines-button.x.close .plusLines {
+	transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.proposalNumberEditIcon {
+	position:relative !important;
+}
+.pubAutoExpire {
+    margin-left: 1em;
+}
+.publishExpireLanes{
+	height: 17.5em;
+    overflow-y: auto;
+ }
+.pubExpRate {
+    text-align: right;
+}
+.publishSectionHdr {
+	color: #6F7D8A;
+ 	display: inline-block;
+    font-weight: bold;
+    width: 48%;
+}
+.publishSelect {
+    height: 1.5em;
+    color: #6F7D8A;
+    font-weight: bold;
+}
+.publishSelect span:first-child{
+    position: absolute;
+    right: 13em;
+}
+.publishSelect span{
+	position: absolute;
+    right: 4.5em;
+}
+.publishTotal{
+	display: inline-block;
+    float: right;
+} 
+.regionInfoIcon {
+	background: url("/applications/pricing/images/info.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	background-size: 10px 10px;
+	cursor:pointer;
+    display:none;
+    height: 10px;
+    margin-left: 3%;
+    width: 10px;
+}
+
+.ribbonBack {
+	height: 0px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #A9B7D1;
+	bottom: -5px;
+	position: absolute;
+	right: 0px;
+	transform: rotate(-45deg);
+	width: 0px;
+}
+
+.savePanel {
+    background-clip: padding-box;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.224);
+    display: none;
+    font-size: 14px;
+    margin-left: 0;
+    padding: 10px;
+    position: absolute;
+    right: -7%;
+    top: 43px;
+    width: 22%;
+    z-index: 1000;
+}
+
+.saveTriangle {
+	background: url("/applications/pricing/images/saveArrow.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    height: 13px;
+	left: 50%;
+    margin-left: -18px;
+	position: absolute;
+	top:-10px;
+    width: 37px;
+}
+.scaleTotal{
+	display: inline-block;
+    float: left;
+}
+.stopCounter {
+    background: none repeat scroll 0 0 #D00000;
+    border-radius: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -15px;
+    padding: 0 10px;
+    position: absolute;
+    text-align: center;
+    width: 14px;
+}
+
+.stopPanel {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(177, 127, 127);
+    border-radius: 4px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.224);
+    display: none;
+    font-size: 14px;
+    left: 50%;
+    margin-left: -138px;
+    padding: 10px;
+    position: absolute;
+    top: 55px;
+    width: 250px;
+    z-index: 1000;
+}
+
+.stopPanel > ul > li {
+	background:white;
+	margin-bottom:8px;
+}
+
+.stopTriangle {
+	background: url("/applications/pricing/images/stopArrow.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    height: 13px;
+	left: 50%;
+    margin-left: -18px;
+	position: absolute;
+	top:-10px;
+    width: 37px;
+}
+.tableAlignRight{
+	text-align: right;
+}
+
+/* A class used by the jQuery UI CSS framework for their dialogs. */
+.ui-datepicker {
+	z-index:100 !important;
+}
+.ui-front {
+    z-index:1000000 !important; /* The default is 100. !important overrides the default. */
+}
+
+.ui-multiselect-menu {
+	width: 20% !important;
+}
+.volumetricInput {
+    display: none;
+    width: 34%;
+    padding: 1px 1px;
+}
+.volumetricInputRate {
+    display: none;
+    width: 34%;
+    padding: 1px 1px;
+}
+.volumetricSelectProp {
+    display: none;
+    padding: 1px 1px;
+    position: absolute;
+    right: 27px;
+}
+.volumetricSelectRate {
+    display: none;
+    padding: 1px 1px;
+    position: absolute;
+    right: 27px;
+    width: 68px;
+}
+
+#accessorials li {
+	cursor:pointer;
+	list-style-type:none;
+	margin-bottom:2px;
+	padding:3px;
+}
+
+#accessorials li span {
+	text-transform:capitalize;
+}
+
+#accessorialsDropdown {
+	background:none repeat scroll 0 0 white;
+	border-color: #858585;
+	border-style:solid;
+	border-width: 0px 1px 1px 1px;
+	color:black;
+	display: none;
+	height: 229px;
+	/*left:5%;*/
+	overflow-y: auto;
+	padding: 2%;
+	position:absolute;
+	/*top: 65px;*/
+    width: 95%;
+	z-index:1000;
+}
+
+#accessorialsSelect {
+	display:none;
+	text-transform: capitalize;
+}
+
+#auditBadge {
+	display: inline-block;
+	font-weight: normal;
+	height: 20px;
+	left: 1.5%;
+	position: absolute;
+	width: 20px;
+}
+
+#auditButton {
+	background: url("/applications/pricing/images/auditMultiIcon.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+		
+}
+#auditButton.disabled {
+	cursor: default;
+    opacity: .3;
+}
+#auditCheck {
+	cursor: pointer;
+	display: inline-block;
+	left: 30%;
+    margin-top: -32px;
+    position: absolute;
+    width: 5%;
+}
+
+
+#auditFail {
+	background: url("/applications/pricing/images/auditFail.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	cursor: pointer;
+	display: none;
+	height: 28px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 28px;
+	z-index: 100;
+}
+#auditFail > .auditNote {
+	color: red;
+	display: inline-block;
+	margin-top: 4px;
+	width: 125px;
+}
+
+#auditFailedButton {
+	background: none repeat scroll 0 0 #c00;
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: bold;
+	margin: 5.25% 17%;
+    padding: 5px;
+    width: 48%;
+}
+#auditPanel {
+	background-clip: padding-box;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.224);
+	display: none;
+	font-size: 14px;
+	margin-left: 0;
+	padding: 12px;
+	position: absolute;
+	right: 26.25%;
+	top: 40px;
+	width: 13%;
+	z-index: 1000;
+}
+#auditPanel > .assignTriangle {
+	background: url("/applications/pricing/images/saveArrow.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	height: 13px;
+	left: 50%;
+	margin-left: -18px;
+	position: absolute;
+	top:-10px;
+	width: 37px;
+}
+
+#auditPass {
+	background: limegreen;
+	display: none;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+#auditPass:before, #auditPass:after {
+	background: limegreen;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+}
+#auditPass:before {
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+}
+#auditPass:after {
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+}
+#auditPass > .auditNote {
+	color: limegreen;
+	left: 20px;
+	position: absolute;
+	width: 110px;
+}
+#auditPass .checkmark {
+	display:inline-block;
+	left: 5px;
+	position: absolute;
+	top: 1px;
+	z-index: 500;
+}
+#auditPass .checkmark:after{
+	/*Add another block-level blank space*/
+	content: '';
+	display: block;
+
+	/*Make it a small rectangle so the border will create an L-shape*/
+	width: 5px;
+	height: 10px;
+
+	/*Add a white border on the bottom and left, creating that 'L' */
+	border: solid #fff;
+	border-width: 0 4px 4px 0;
+
+	/*Rotate the L 45 degrees to turn it into a checkmark*/
+	transform: rotate(45deg);
+	
+	position: absolute;
+}
+#auditPass .circle {
+	background: none repeat scroll 0 0 #ffffff;
+	border-radius: 50%;
+	display: none;
+	height: 92%;
+	left: 4%;
+	position: absolute;
+	top: 4%;
+	width: 92%;
+	z-index: 100;
+}
+
+#auditSelectedButton {
+	background: none repeat scroll 0 0 #c00;
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: bold;
+	margin: 5.25% 17%;
+    padding: 5px;
+    width: 48%;
+}
+#auditUnauditedButton {
+	background: none repeat scroll 0 0 #c00;
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: bold;
+	margin: 5.25% 17%;
+    padding: 5px;
+    width: 48%;
+}
+
+#authButton {
+    background: url("/applications/pricing/images/help.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: inline-block;
+    height:30px;
+    margin: 1.5em;
+    min-width: 30px;
+    width:30px;
+}
+
+#authorizationList li {
+    display: none;
+    margin-bottom: 2em;
+    padding: 0 1em;
+}
+
+#bodyContainer {
+    height: 780px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20px;
+    width: 960px;
+}
+#bodyContainer.fullSizeFast {
+    width: 1190px;
+}
+#bodyContainer.fullSizeSlow {
+    width: 1190px;
+    
+    -webkit-transition: width 500ms cubic-bezier(.9,.04,.41,1.03);
+    transition: width 500ms cubic-bezier(.9,.04,.41,1.03);
+}
+
+#borderSelect {
+	border-color: #999999 #D0D0D0 #D5D5D5;
+    border-style: solid;
+    border-width: 1px;
+	display:none;
+	margin: 10px 5px;
+    padding: 4px 5px 3px;
+    width: 52%;
+}
+
+#closeCustDetail {
+	position: absolute;
+	right: 2%;
+	top: 20px;
+}
+
+#contactBlock {
+	margin: 0 5%;
+	visibility:hidden;
+}
+
+#contactEmail {
+	color: #6F7D8A;
+	display:inline-block;
+}
+
+#contactInfo {
+	display: inline-block;
+    margin-left: 1%;
+    margin-top: 5px;
+    width: 50%;
+}
+
+#contactMethodList li {
+	background-position: center top;
+    background-repeat: no-repeat;
+	cursor:pointer;
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 65px;
+}
+#contactMethodList li:hover {
+	background-color:#B1EDED;
+}
+#contactMethodList li > span {
+	bottom: 0;
+    color: #47607f;
+    font-size: 0.75em;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#contactName {
+}
+
+#contactName > span {
+	color: #858585;
+	cursor:pointer;
+	display:inline-block;
+	float:left;
+    font-size: 1.2em;
+	font-weight:bold;
+	padding: 3px 0;
+}
+
+#contactName > .editIcon {
+	display:inline-block;
+	float:left;
+	margin-top:5px;
+	position:relative;
+	/*visibility:hidden;*/
+}
+
+#contactNameEdit {
+	display:none;
+	float:left;
+    font-size: 1.2em;
+}
+
+#contactPhone {
+	border-right: 1px solid;
+	color: #6F7D8A;
+	display:inline-block;
+	margin-right:1%;
+	padding-right:1%;
+}
+
+
+#contactTitle {
+	border-right: 1px solid;
+	color: #6F7D8A;
+	display:inline-block;
+	margin-right:1%;
+	padding-right:1%;
+}
+
+#contentSlider {
+    height: 100%;
+    margin-left: 0;
+    width: 2500px;
+    
+    -webkit-transition:margin-left .4s cubic-bezier(.9,.04,.41,1.03);
+    transition: margin-left .4s cubic-bezier(.9,.04,.41,1.03);
+}
+#contentSlider.analyticsMode {
+    margin-left: -925px;
+    -webkit-transition:margin-left .4s cubic-bezier(.9,.04,.41,1.03);
+    transition: margin-left .4s cubic-bezier(.9,.04,.41,1.03);
+}
+
+#contentSlider > div {
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+#contMethSelect {
+	display:none;
+	margin-left: 2%;
+	vertical-align: text-bottom;
+}
+
+#custContact {
+	display:inline-block;
+	width:35%;
+}
+#custContact p {
+	font-weight:bold;
+	margin:5px 0 0 1em;
+}
+
+#custInfoBox {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 6px 15px #A1A1A1;
+    display: none;
+	left: 3.2%;
+	margin-top: -4em;
+    min-width: 685px;
+    padding: 6em 2em 2em;
+    position: absolute;
+    width: 50%;
+    z-index: 1100;
+}
+#custInfoBox h2 {
+	font-weight: normal;
+}
+#custInfoBoxArrow {
+	border-color: rgba(0, 0, 0, 0) #FFFFFF rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 7px;
+    height: 0;
+    left: -14px;
+    margin-top: -7px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    z-index: 110;
+}
+
+#custInfoCounter {
+	display: block;
+	color: #47607f;
+	margin-left: 25px;
+	margin-top: 4px;
+}
+
+#custInfoIcon {
+	background: url("/applications/pricing/images/info.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+    display:none;
+    height: 20px;
+    margin-left: 1%;
+	position: absolute;
+	top: 1.5em;
+    width: 20px;
+}
+
+#customerBlock {
+	margin: 0 5%;
+	visibility:hidden;
+}
+
+#customerName {
+	display: inline-block;
+    font-weight: normal;
+	margin-bottom: -7px;
+	margin-top: 0px;
+	max-width: 400px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#customerNumber {
+	cursor:pointer;
+	display:inline-block;
+	margin:0;
+	position: relative;
+	/*width:25%;*/
+	z-index: 1200;
+}
+#customerNumber > .editIcon {
+	display:inline-block;
+	/*visibility:hidden;*/
+}
+
+#customerNumberEdit {
+	display:none;
+    font-size: 2em;
+}
+
+#customerNumberLabel {
+	color: #333;
+	display:inline-block;
+    font-size: 2em;
+	font-weight:100;
+	padding: 3px 0;
+	position: relative;
+	margin-left:1%;
+	z-index: 1200;
+}
+
+#custSearch {
+	float: right;
+}
+#deficitInfo {
+	background: #E6EBEF;
+	border: 2px solid black;
+	display: none;
+	padding: 10px;
+	position: absolute;
+	width: 260px;
+	z-index: 100;
+}
+#destLabel {
+	color:#008000;
+	font-weight:bold;
+	right:-7.5%;
+}
+#destLabel div {
+    display: inline-block;
+}
+#destLabel span {
+	display: block;
+	font-size: 90%;
+	/*margin-left: 1%;
+	margin-right:1%;*/
+	opacity: 0.75;
+	/*padding-right:1%;*/
+}
+#deselectAll {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+#destTag {
+	content: "101103";
+	cursor:pointer;
+}
+#destTag.pos1 {
+	right: 0%;
+    top: -50px;
+}
+#destTag.pos2 {
+	right: 0%;
+    top: -50px;
+}
+#destTag.pos3 {
+	right: 0%;
+	top:0;
+}
+
+#downloadButton {
+	background: url("/applications/pricing/images/download.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+}
+#downloadButton.disabled {
+	cursor: default;
+    opacity: .3;
+}
+#emailButton {
+	background: none repeat scroll 0 0 #c00;
+    color: #FFFFFF;
+    display: none;
+    float: right;
+    font-size: 10pt;
+    font-weight: bold;
+	margin: 1.25% 0;
+    padding: 5px;
+}
+#emailButton.disabled {
+	cursor: default;
+    opacity: .3;
+}
+#emailButton.lockDisable {
+    cursor: default;
+    opacity: .3;
+}
+#emailForm {
+    width: 550px;
+    margin:auto;
+    text-align: center;
+}
+#emailForm h2 {
+	margin-bottom: 30px;
+	margin-left: 4%;
+    text-align: left;
+}
+#emailForm input, #emailForm textarea, #emailForm select {
+    width: 500px;
+}
+#emailTo, #emailCc {
+	margin-bottom: 5px;
+}
+#emailBcc {
+	margin-bottom: 15px;
+}
+#emailAttachments {
+	margin-bottom: 40px;
+}
+#emailSubject {
+    margin-bottom: 15px;
+}
+#emailForm div:last-child {
+    width: 500px;
+    margin-top: 15px;
+    text-align: right;
+    display: inline-block;
+}
+#emailLaneCount {
+    color: #42589d;
+    float: right;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-top: 16px;
+}
+#emailForm button {
+    padding: 5px 10px 5px 10px;
+}
+#entryBox {
+	background:white;
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+	width:77%;
+	z-index:100;
+}
+#entryBox .searchBox {
+	width: 50%;
+}
+
+#geoBlock {
+	display: none;
+	margin:50px 0 20px;
+	position:relative;
+	width: 100%;	
+}
+#geoBlock h3 {
+	color:#42589D;
+}
+
+#geoSearchList {
+	display:none;
+	left: 31%;
+    position: absolute;
+    top: 50px;
+    width: 38%;
+}
+
+#getRates {
+	background: url("/applications/pricing/images/refresh.png") no-repeat scroll right 0 transparent;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+    height: 17px;
+    margin: 6px 2% 0 1%;
+    width: 17px;
+}
+
+#header {
+    background: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    height: 60px;
+    padding: 10px 0px 10px;
+    position: relative;
+    width: 100%;
+}
+
+#headerButtons {
+    position: absolute;
+    right: 0;
+    top: 1em;
+}
+
+#headState {
+	background: url("/applications/pricing/images/h1307035.png") no-repeat scroll right 0 transparent;
+	cursor: pointer;
+	height: 122px;
+	left: 47%;
+	position: absolute;
+	top: 310px;
+	-webkit-transition:top 2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	transition: top 2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	width: 80px;
+	z-index: 0;
+}
+#headState.pos1 {
+	top: 245px;
+}
+#headState.pos2 {
+	top:90px;
+	-webkit-transition:top 300ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+	transition: top 300ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+#headState.pos3 {
+	top:320px;
+	-webkit-transition:top 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+	transition: top 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+#laneControls {
+	margin: 15px auto;
+	position: relative;
+	width: 96%;
+}
+#laneControls > .navButton {
+	cursor: pointer;
+	float: right;
+	height: 30px;
+	margin-left: 2%;
+	width: 30px;
+}
+
+#laneLine {
+	background:#800000;
+	bottom:32px;
+	height:6px;
+	position:absolute;
+}
+#laneLine.pos1 {
+	left:50%;
+	width:0px;
+}
+#laneLine.pos2 {
+	left: 3%;
+    width: 94%;
+}
+#laneLine.pos3 {
+	left: 3%;
+    width: 94%;
+}
+
+#laneListDropDown {
+	-webkit-box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.223529);
+	-moz-box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.223529);
+	
+	background-color:#ffffff;
+	border-bottom: 1px solid #adadad;
+	box-shadow: rgba(0, 0, 0, 0.223529) 0px 7px 9px -4px;
+	height:0%;
+    overflow: hidden;
+	position:relative;
+	width:100%;
+	/*z-index:999;*/
+}
+
+#laneListDropDown > .hoverMask{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  	box-sizing: border-box;         /* Opera/IE 8+ */
+	
+	background: url("/applications/pricing/images/dropHere.png") no-repeat scroll center 135px rgba(255, 255, 255, 1);
+	border: 4px solid rgba(0, 0, 0, 0.15);
+	display: none;
+	height: 100%;
+	/*opacity: .7;*/
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+
+#laneListEditorMask {
+	background: radial-gradient(ellipse farthest-corner at 40% center , rgba(130, 130, 130, 0) 30%, rgba(50, 50, 50, 0.7) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+	opacity: 0;
+    top: 0;
+    width: 100%;
+}
+
+#laneListTable tr.loaded td:first-of-type {
+	border-left: solid 5px lime;
+	padding-left: 5px;
+}
+#laneListTable tr.upderrors{
+    outline: 2px solid #A9B7D1;
+}
+#laneListTable tr.upderrors td{
+     background-color: #ffb2b2 !important;
+}
+
+#laneListTable_wrapper {
+	clear:none;
+}
+#laneListTable_wrapper .dataTables_filter {
+	background: none repeat scroll 0 0 #dddddd;
+    float: none;
+    padding: 8px;
+    text-align: left;
+}
+#laneListTable_wrapper .dataTables_info {
+	clear:none;
+}
+#laneListTable_wrapper .dataTables_scroll {
+	clear:none;
+}
+
+#laneMap {
+	height: 75px;
+    margin: 0 auto;
+	position: relative;
+    width: 77%;
+}
+
+#laneMap.headPos1 {
+	transform: rotate(-6deg);
+	-webkit-transition: all 120ms ease 0s;
+	transform-origin: 0% 50% 0;
+	transition: all 120ms ease 0s;
+}
+#laneMap.headPos2 {
+	transform: rotate(13.85deg);
+	-webkit-transition: all 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+	transition: all 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+#laneMap > .label {
+	width:20%;
+}
+
+#laneMap .borderBox {
+}
+#laneMap .borderBox .border {
+	border-color: transparent transparent #fec300 transparent;
+	border-style: solid;
+	border-width: 0 19px 32.9px 19px;
+	height: 0;
+	margin: 18px auto;
+	position:relative;
+	width: 0;
+}
+#laneMap .borderBox .border .borderCenter {
+	border-color: transparent transparent #ffffff transparent;
+	border-style: solid;
+	border-width: 0 9px 15.6px 9px;
+	height: 0;
+	margin: 11px -9px;
+	position:absolute;
+	width: 0;
+}
+
+#laneMap .label {
+	position:absolute;
+	text-align: center;
+	top: 55px;
+}
+
+#laneMap .mapPoint {
+	display:inline-block;
+	left: 13%;
+	position:relative;
+    width: 80%;
+	z-index:100;
+}
+
+#laneMap .mapPoint.headPos0 {
+	left: 71%;
+	-webkit-transition: all 750ms cubic-bezier(0.95, 0.05, 0.795, 0.035); 
+	transition: all 750ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+#laneMap .mapPoint.headPos1 {
+	left: 38%;
+	-webkit-transition: all 500ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+	transition: all 500ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+#laneMap .stopBox {
+	z-index:200;
+} 
+#laneMap .stopBox .stop {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 6px solid #FF0000;
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+	margin: 18px auto;
+    width: 20px;
+}
+#laneMap .tag {
+	background-size:30px;
+	height:50px;
+	position: absolute;
+	width:30px;
+	z-index:50;
+}
+#laneNav {
+    display: none;
+}
+#laneNav > div {
+    display: inline-block;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-right: 7px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+#laneNav > input[type="text"] {
+    width: 40px;
+    text-align: center;
+}
+
+#laneNav .laneDisabled {
+    color: lightgray;
+    cursor: default;
+}
+
+#laneNavButtons {
+	display: none;
+	float: right;
+	margin: -32px 0px;
+}
+#laneNavButtons > .navArrow {
+	cursor: pointer;
+	height: 11px;
+	width: 20px;
+	margin-top: 6px;
+}
+#laneNavButtons > .navDown {
+	background: url("/applications/pricing/images/navArrowDown.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+}
+#laneNavButtons > .navUp {
+	background: url("/applications/pricing/images/navArrowUp.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+}
+
+#laneNavSpinner {
+	border: 0px;
+	height: 19px;
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top, #d2d2d2 0%, #f2f2f2 20%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d2d2d2), color-stop(20%, #f2f2f2));
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 3px;
+	color: #5E768D;
+	margin: 14px 0 0 2%;
+	position: relative;
+	text-align: center;
+	width: 56%;
+}
+
+#laneNavWidget {
+	display: inline-block;
+	
+	float: left;
+	font-size: 1.6em;
+	height: 50px;
+	margin-left: 1%;
+	position: relative;
+	width: 11%;
+}
+
+#laneNavWidget .laneDisabled {
+	cursor: default !important;
+	opacity: .3;
+}
+
+#laneNavPlusX {
+	color: #f2f2f2;
+	cursor: pointer;
+	font-weight: bold;
+}
+#laneNavPlusX.tempDisabled {
+	cursor: default !important;
+	opacity: .3;
+}
+
+#laneNavPlus {
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	height: 25px;
+	margin: 8.6% 1.5%;
+	width: 15%;
+}
+#laneNavPlus.tempDisabled {
+	cursor: default !important;
+	opacity: .3;
+}
+
+#lanePoints {
+	margin:10px auto;
+	width:60%;
+}
+#lanePoints li {
+    font-size: 1.3em;
+    margin: 8px 0;
+}
+#lanePoints .dest {
+	color:#008000;
+	font-weight:bold;
+}
+#lanePoints .origin {
+	color:#4690CF;
+	font-weight:bold;
+}
+#lanePoints .stopBox {
+	bottom:32px;
+	left: 14%;
+	position:absolute;
+    width: 72%;
+}
+#lanePoints .stopBox .stop {
+	margin-left:10%;
+}
+
+#lanePointsDropdown {
+	width:75%;
+}
+
+#listDropIcon {
+	/*background: url("/applications/pricing/images/listIcon.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);*/
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 21px;
+    margin: 1.6% 1.5%;
+    width: 25px;
+}
+#listDropIcon.cancel {
+	
+}
+#loadsForm {
+	width: 250px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#loadsForm > div:last-child {
+	text-align: right; 
+}
+#loadsCancel {
+    cursor: pointer;
+}
+#loadsConfirm {
+    cursor: pointer;
+}
+#loadsForm button {
+	width: 75px;
+	padding: 5px 10px;
+	margin-top: 20px;
+}
+#loadsList {
+    height: 300px;
+    overflow-y: auto;
+   	width: 100%;
+}
+#loadsList li {
+    text-align: left;
+}
+#loadsListContainer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 60%;
+	margin: auto;
+}
+#loadsOther {
+	text-align: right;
+	color: #008000;
+}
+
+#logo {
+    background: url("/applications/pricing/images/logo.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+    background-size: 58px;
+    float: left;
+    height: 58px;
+    padding: 0 20px;
+    width: 58px;
+}
+
+#logo.cornerPosition {
+    left: 0;
+    top: 0;
+}
+#logo.splashPosition {
+	left: calc(50% - 49px);
+    position: absolute;
+    top: 10px;
+}
+
+
+#massUpdateBlock .ui-multiselect {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 0px;
+	border-color: rgb(169, 169, 169);
+	padding: 4px 3px;
+}
+
+#massUpdateButton {
+	background: url("/applications/pricing/images/massEdit.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+}
+#massUpdateButton.disabled {
+	cursor: default;
+    opacity: .3;
+}
+
+#matchBox {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+	border: 1px solid #7aa6d0;
+    border-radius: 4px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.224);
+    display: block;
+    font-size: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+	width:100%;
+    z-index: 1000;
+}
+
+
+#matchIcon {
+	/*background: #C8D5F1; */
+	/* border: 3px solid #C8D5F1; */
+	/*border-radius: 50%;*/
+	display: inline-block;
+	height: 24px;
+	left: 0;
+	position: absolute;
+	/* transform: rotate(45deg); */
+	top: -1px;
+	width: 24px;
+	z-index: 100;
+}
+#matchIcon:before {
+	background-color: #C8D5F1;
+	border: 2px solid #ffffff;
+	border-radius: 1px;
+	content: "";
+	height: 7px;
+	left: 4px;
+	position: absolute;
+	width: 7px;
+	top: 9px;
+	z-index: 100;
+}
+#matchIcon:after {
+	background-color: #B7C4E0;
+	border-radius: 1px;
+	border: 2px solid #ffffff;
+	content: "";
+	height: 7px;
+	left: 9px;
+	position: absolute;
+	top: 4px;
+	width: 7px;
+}
+
+#matchIndicator {
+	/*background: url("/applications/pricing/images/match3.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);*/
+	cursor: pointer;
+    display: none;
+    /*height: 35px;*/
+    left: 45%;
+    /*margin-top: -42px;*/
+	margin-top: 3px;
+    position: absolute;
+    /*width: 35px;*/
+}
+
+#matchIndicator .duplicateCount {
+	border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+	display:none;
+	font-family: fantasy;
+    font-size: 1.5em;
+    font-weight: bold;
+	left: -10px;
+    position: absolute;
+}
+#matchIndicator .matchCount {
+	background: none repeat scroll 0 0 #C8D5E1;
+	border-radius: 2px;
+	color: #444444;
+	cursor: pointer;
+	float: left;
+	font-weight: bold;
+	padding: 4px 10px 4px 30px;
+	position: relative;
+	text-align: center;
+}
+
+#matchList li {
+	margin-bottom:5px;
+	position:relative;
+	overflow-y: auto;
+}
+
+/* linkify the proposal number */
+#matchTable tbody tr td:nth-child(2){
+	color:blue;
+	cursor:pointer;
+}
+
+/* remove link if in old rate proposal system */
+#matchTable tbody tr.oldRatePropSystem td:nth-child(2) {
+    color: #333333;
+    cursor: default;
+}
+
+#minChrgPricedRateSpan {
+	cursor: pointer;
+	display:block;
+}
+
+
+#minChrgSection{
+	display: inline-block;
+	float: right;
+	margin-top: -18px;
+	width: 35%;
+}
+
+#miniLaneUsers {
+	background: none repeat scroll 0 0 #C8D5F1;
+	display: inline-block;
+	height: 40px;
+	padding: 5px 0 0 10px;
+	position: absolute;
+	right: -8px;
+	top: 40px;
+	width: 33%;
+}
+
+#miniRates {
+	background: none repeat scroll 0 0 #C8D5F1;
+	display: inline-block;
+	height: 40px;
+	padding: 5px 0 0 10px;
+	position: absolute;
+	right: -8px;
+	top: -20px;
+	width: 33%;
+}
+
+#newButton {
+	background: none repeat scroll 0 0 #009900;
+	color: #FFFFFF;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 5px;
+	border: none;
+	right: 0;
+	text-align: center;
+	width: 65px;
+	display: none;
+}
+
+#notesTabAsterisk {
+    color: lime;
+    display: none;
+    font-size: 1.7em;
+    position: absolute;
+    right: 25px;
+    top: 47px;
+}
+
+#originLabel {
+	color:#4690CF;
+	font-weight:bold;
+	left:-7.5%;
+}
+#originLabel div {
+    display: inline-block;
+}
+#originLabel span {
+	display: block;
+	font-size: 90%;
+	/*margin-left: 1%;
+	margin-right:1%;*/
+	opacity: 0.75;
+	/*padding-right:1%;*/
+}
+#originTag {
+	content: '103114';
+	cursor:pointer;
+    z-index: 50;
+}
+#originTag.pos1 {
+	left: 46%;
+    top: -50px;
+}
+#originTag.pos2 {
+	left: 46%;
+	top:0;
+}
+#originTag.pos3 {
+	left: 0%;
+	top: 0;
+}
+
+#propMessage {
+	background: none repeat scroll 0 0 #4285F4;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: none;
+    font-weight: bold;
+	height:15px;
+    left: 50%;
+    margin-left: -4%;
+    margin-top: 1.5%;
+    padding: 3px 10px;
+    position: absolute;
+    text-align: center;
+}
+#propMessage .locked {
+	background: none repeat scroll 0 0 #FFFF00;
+	color: #000000;
+}
+#propMessage .updError {
+	background: none repeat scroll 0 0 #FFFF00;
+	color: #000000;
+}
+#propMessage > span {
+	display: inline-block;
+}
+
+#propMessageSpinner {
+	display: none;
+	vertical-align: middle;
+}
+
+#proposalMenu {
+    background: none repeat scroll 0 0 #555;
+    border: 1px solid #858585;
+    border-bottom: 0px;
+    border-radius: 5px 5px 0 0;
+    display: none;
+    height: 50px;
+    position: relative;
+    width: 905px;
+	z-index: 100;
+}
+
+#proposalMenu .navButton {
+	cursor: pointer;
+	display: none;
+	float: right;
+	height: 30px;
+	margin: 10px 10px 10px 0px;
+	width: 30px;
+}
+
+#proposalNumber {
+    color: #ddd;
+	display: inline-block;
+	float: left;
+	margin: 1.25% 0 0;
+}
+
+#proposalNumber span {
+	display:inline-block;
+	font-size:inherit;
+    font-weight: 200;
+	padding:3px 0;
+}	
+
+#proposalNumberEdit {
+	display:none;
+}
+
+#proposalLane {
+	display: inline;
+	margin-left: 5px;
+}
+
+#proposalSection {
+    display: inline-block;
+    position: relative;
+}
+
+#publishButton {
+	background: url("/applications/pricing/images/rateExport.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	
+}
+#publishButton.disabled {
+	cursor: default;
+    opacity: .3;
+}
+#publishDeselectAll {
+	margin-top: .1em;
+    position: absolute;
+    right: 2.5em;
+ }
+#publishExpireList {
+	border-bottom: solid 1px #c0c0c0;
+}
+#publishExpireList li{
+	border-bottom: solid 1px #c0c0c0;
+	display: grid;
+	font-size: .9em;
+    grid-template-columns: .35fr .65fr 1.5fr 1.5fr .35fr .5fr;
+    padding: .3em 0 .3em 0;
+}
+#publishExpireList li:first-child{
+    border-bottom: solid 1px #111111;
+    border-top: solid 2px #111111;
+    font-weight: bold;
+    padding: .5em 0 .5em 0;
+}
+#publishLaneButton {
+	background: none repeat scroll 0 0 #c00;
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: bold;
+	margin: 3.25% 22%;
+    padding: 5px;
+    width: 48%;
+}
+#publishPanel {
+	background-clip: padding-box;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.224);
+	display: none;
+	font-size: 14px;
+	margin-left: 0;
+	padding: 1em 1.5em;
+	position: absolute;
+	right: -5%;
+	top: 40px;
+	width: 65%;
+	z-index: 1000;
+}
+#publishPanel > .assignTriangle {
+	background: url("/applications/pricing/images/saveArrow.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	height: 13px;
+	left: 50%;
+	margin-left: -18px;
+	position: absolute;
+	top:-10px;
+	width: 37px;
+}
+
+#publishPanel > .dateEntry {
+	margin-bottom: 20px;
+	width: 22%;
+}
+#publishPanel > .dateEntry > input {
+	width: 75%;
+}
+
+#publishPanel > label {
+	color: #6F7D8A;
+	display: block;
+	font-weight: bold;
+}
+
+#publishPanel > input {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#publishSelectAll {
+  	margin-top: .1em;
+    position: absolute;
+    right: 11em;
+}	
+#pubPublicationNum{
+	display: inline-block;
+	width: 47%;
+}
+#pubRateAuthority{
+	display: inline-block;
+	width: 47%;
+}
+#rateBlock {
+	bottom:0;
+	display:block;
+	height:400px;
+	margin-left: 2%;
+	padding:6px 0 20px;
+	position:absolute;
+	visibility:hidden;
+	z-index: 1;
+}	
+
+#rateControlBar {
+	background: #858585;
+	height: 30px;
+	padding: 3px 0 0;
+}
+#rateControlBar > .button {
+	background: url("/applications/pricing/images/menuTriangle.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+	background-color: #858585;
+    display: inline-block;
+	margin-right: 1%;
+	margin-top: 2px;
+	padding-right: 2%;
+	position: relative;
+}
+
+#rateInfo {
+	background: #E6EBEF;
+	border: 2px solid black;
+	display: none;
+	padding: 10px;
+	position: absolute;
+	width: 260px;
+	z-index: 100;
+}
+#rateInfo td:first-child {
+	font-weight: bold;
+	padding-right: 10px;
+	vertical-align: top;
+}
+#rateTotal {
+	border-bottom: solid gray 1px;
+	border-left: solid gray 1px;
+	border-right: solid gray 1px;
+	color: #555;
+	display:block;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 10px 1%;
+	position:relative;
+	text-align: right;
+}
+
+#saveRates {
+	display: none;
+	float: right;
+	margin: 1.25% 1.5% 1.5% 0;
+    text-align: center;
+    width: 65px;
+}
+#saveRates.disabled {
+	cursor: default;
+	opacity: .3;
+}
+
+#saveRates.lockDisable {
+    cursor: default;
+    opacity: .3;
+}
+#selectAll {
+	cursor: pointer;
+    position: absolute;
+    right: 110px;
+}
+#sLoading {
+	display:none;
+	left: 400px;
+    top: 100px;
+	z-index:600;
+}
+#sLoadingLanes {
+	display:none;
+	left: 400px;
+    top: 100px;
+	z-index:600;
+}
+#sMask {
+	display:none;
+	height: 372px;
+    left: 1px;
+    position: absolute;
+    top: 40px;
+    width: 867px;
+    z-index: 100;
+}
+#sMaskLanes {
+	display:none;
+	height: 99%;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+#startForm {
+    background: #fff;
+    border: 1px solid #efefef;
+	display:none;
+    height: 230px;
+	margin: 0 auto;
+    padding: 25px;
+    position: relative;
+    top: 100px;
+    width: 30%;
+}
+
+#startForm h2 {
+    font-weight: 200;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#startForm input {
+    font-size: 1.5em;
+    padding: 9px 8px 7px;
+    width: 93%;
+}
+
+#startForm .contSearchResults {
+	width:100%;
+}
+#startForm .custSearchResults {
+	width:100%;
+}
+#startForm .formOr {
+	color: #333;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 47%;
+}
+
+#stats ul {
+    position: relative;
+    z-index: 99;
+}
+#stats.placeholder {
+	text-align: center;
+    font-style: italic;
+}
+#stats div:first-child {
+    font-weight: bold;
+}
+#stats div:last-child {
+	margin-bottom: 20px;
+}
+#tempTag {
+	display:none;
+	height:inherit;
+	left: 10%;
+	position:relative;
+    /*width: 58.5%;*/
+	width:80%;
+	z-index:100;
+}
+
+#topOrgDest {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    opacity: 0;
+    right: 50px;
+    top: 25px;
+    -webkit-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+    width: 30%;
+}
+#topOrgDest.visible {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+}
+#topOrgDest > div {
+    display: inline-block;
+
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    
+    position: relative;
+    width: 50%;
+}
+#topOrgDest .tag {
+    background-size: 18px;
+    height: 30px;
+    left: -30px;
+    position: absolute;
+    width: 20px;
+}
+
+#userAssignmentButton {
+	background: url("/applications/pricing/images/users.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+}
+
+#userAssignmentPanel {
+	background-clip: padding-box;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.224);
+	display: none;
+	font-size: 14px;
+	margin-left: 0;
+	padding: 1em 1.5em;
+	position: absolute;
+	right: -10.5%;
+	top: 32px;
+	width: 19.5%;
+	z-index: 1000;
+}
+#userAssignmentPanel > .assignTriangle {
+	background: url("/applications/pricing/images/saveArrow.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	height: 13px;
+	left: 50%;
+	margin-left: -18px;
+	position: absolute;
+	top:-10px;
+	width: 37px;
+}
+#userAssignmentPanel > label {
+	color: #6F7D8A;
+	display: block;
+	font-weight: bold;
+}
+#userAssignmentPanel > select {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#volumetricsChart {
+    left: 0;
+    margin-left: -1.4em;
+}
+
+#volumetricsData {
+    font-size: 1.2em;
+    margin: 0 auto;
+    width: 90%;
+}
+#volumetricsData.volumetricsEditMode {
+    font-size: .95em;
+}
+#volumetricsData .volumetricGroupHeader:before {
+    content: "";
+    display: inline-block;
+    height: 1em;
+    margin-right: 5px;
+    width: 1em;
+}
+
+#volumetricsData li:nth-of-type(1) > .volumetricGroupHeader:before {
+    background: #fec300;
+}
+#volumetricsData li:nth-of-type(2) > .volumetricGroupHeader:before {
+    background: #c00;
+}
+#volumetricsData li:nth-of-type(3) > .volumetricGroupHeader:before {
+    background: #f05b4f;
+}
+
+#volumetricsEdit {
+    background: url("/applications/Pricing/images/pencil.svg") no-repeat scroll right center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block; 
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    width: 25px;
+}
+#volumetricsEdit.disabled{
+    cursor: default;
+    opacity: .3;    
+}
+#volumetricsSave {
+    display: none;
+    margin: 40px auto;
+    text-align: center;
+    width: 65px;
+}
+#volumetricsSave.disabled {
+    cursor: default;
+    opacity: .3;
+}
+
+#volumetricsSave.lockDisable {
+    cursor: default;
+    opacity: .3;
+}
+
+#volumetricsTab .volumetricGroupHeader {
+    border-bottom: 1px solid #6F7D8A;
+    color: #555;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+#volumetricsTabAsterisk {
+    color: lime;
+    display: none;
+    font-size: 1.7em;
+    position: absolute;
+    right: 25px;
+    top: 47px;
+}
+#volumetricsData li {
+    margin-bottom: 8px;
+}
+#volumetricsData .volumetricDesc {
+    color: #858585;
+    display:inline-block;
+    width: 63%;
+}
+#volumetricsData .volumetricVal {
+    display:inline-block;
+    text-align: right;
+    width: 34%;
+}
+#volumetricsData .volumetricVal .disabled {
+    display: none;
+}
+
+.statusType {
+    display: inline-block;
+    padding: 4px 3px;
+}
+
+#milageSourceIcon {
+	background: url("/applications/pricing/images/info.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+    display:inline-block;
+    height: 20px;
+    margin-left: 1%;
+    width: 20px;
+    float: right;
+    margin-right: 95px;
+}

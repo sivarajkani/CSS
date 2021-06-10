@@ -1,0 +1,22 @@
+html { height: 100%}
+body { 
+	height: 100%; 
+  	margin: 0px;
+  	padding: 0px; 
+    background-color:#CBE3F0;
+	overflow:hidden;
+}
+#map_canvas {
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	z-index: 1;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Tahoma;
+    font-size: small; 
+}
+p {
+    font-family: Tahoma; 
+    font-size: 11px;
+}  

@@ -1,0 +1,27 @@
+#logs path {
+    fill: #ddd;
+}
+#logs polygon {
+    fill: #ddd;
+}
+#logs rect {
+    fill: #ddd;
+}
+
+#notes ellipse {
+    fill: #ddd;
+}
+#notes path {
+    fill: #ddd;
+}
+
+#stats path {
+    fill: #ddd;
+}
+
+#volumetrics path {
+    fill: #ddd;
+}
+#volumetrics rect {
+    fill: #ddd;
+}

@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contSearchResults {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #A2BFF0 #558BE3 #558BE3 #A2BFF0;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    display: none;
+    margin: 0;
+    max-height: 460px;
+    overflow-y: auto;
+    padding: 0;
+    position: absolute;
+    width: 25%;
+    z-index: 1010;
+}
+
+.contSearchResults li{
+	background-color: #FFFFFF;
+	color:#757575;
+    cursor: pointer;
+	font-size: .9em;
+    list-style-type: none;
+    padding: 8px 5%;
+}
+.contSearchResults li:nth-child(odd) {
+	background-color: #F2F2F2;
+}
+.contSearchResults li.selected{
+	background-color:#DDDDDD;
+}
+
+.contSearchResults li:hover{
+	background:#DDDDDD;
+}
+
+.contSearchResults li > .formattedNumber {
+	display: inline-block;
+    overflow: auto;
+    text-align: right;
+    width: 40%;
+}
+.contSearchResults li > .phone {
+    display: block;
+	margin-bottom:1px;
+	margin-top:1px;
+}
+.contSearchResults li > .email {
+    display: inline;
+    margin-bottom: 1px;
+    margin-top: -3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	text-transform:lowercase;
+    white-space: nowrap;
+    width: 100%;
+}
+.contSearchResults li > .contactname {
+	color: #47607F;
+    display: inline-block;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	text-transform:capitalize;
+    white-space: nowrap;
+    width: 100%;
+}
+.contSearchResults li > .customername {
+    display: inline-block;
+    float: left;
+    font-style: italic;
+    max-width: 70%;
+    overflow: hidden;
+    padding-right: 9px;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    vertical-align: top;
+    white-space: nowrap;
+}
+

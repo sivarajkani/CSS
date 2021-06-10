@@ -1,0 +1,516 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background: none repeat scroll 0 0 #fafafa;
+    position: relative;
+    font-size: 73%;
+}
+
+input.invalidDate {
+    background-color: #ffb2b2;
+    border-color: #ff0000;
+    padding: 0;
+}
+
+.dateBox {
+	display:block;
+	float:none;
+}
+.dateBox label {
+	margin-bottom:5px;
+	margin-left:0;
+	margin-top:18px;
+}
+
+.dateEntry {
+	background: #ffffff;
+	border-color: #999999 #D0D0D0 #D5D5D5;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    line-height: 20px;
+	margin-right: 1%;
+    padding: 1px 3px 2px;
+    vertical-align: middle;
+	width:44%;
+}
+
+.dateEntry input {
+	color:#484848;
+	margin: 3px 0 0;
+	width:83% !important;
+}
+
+
+.invalidField {
+    background-color: #ffb2b2;
+    border-color: #ff0000;
+    padding: 0;
+}
+.laneType {
+    display: inline-block;
+    padding: 4px 3px;
+}
+
+.removeSelectedItem {
+	background: url("/applications/pricing/images/close.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+    float: right;
+    height: 12px;
+    margin: 2px 2px 1px;
+    width: 12px;
+}
+.searchLaneTypeMulti {
+	width: 49% !important;
+}
+.searchLaneTypeMulti > ul > li > label {
+	border: 0px;
+}
+.searchLaneTypeMulti > ul > li > label.ui-state-hover {
+	background:none repeat scroll 0 0 white;
+	border: none;
+}
+
+.searchWorkFlowMulti {
+	width: 49% !important;
+}
+.searchWorkFlowMulti > ul > li > label {
+	border: 0px;
+}
+.searchWorkFlowMulti > ul > li > label.ui-state-hover {
+	background:none repeat scroll 0 0 white;
+	border: none;
+}
+
+.searchResults {
+	background:none repeat scroll 0 0 white;
+	border-color:#A2BFF0 #558BE3 #558BE3 #A2BFF0;
+	border-style:solid;
+	border-width:1px;
+	color:black;
+	display:none;
+	margin:0;
+	margin-top:-4px;
+	padding: 0;
+	position:absolute;
+	width:80%;
+	z-index:1000;
+}
+
+.searchResults li{
+	background-color:#FFFFFF;
+	cursor:pointer;
+	list-style-type:none;
+	margin-bottom:2px;
+	padding:2px;
+}
+.searchResults li.selected{
+	background-color:#DDDDDD;
+}
+
+.searchResults li:hover{
+	background:#DDDDDD;
+}
+
+.searchSection {
+	margin-bottom:25px;
+    margin-top: 18px;
+	padding: 0 5%;
+	position: relative;
+}
+
+.searchSection input {
+	width:97%;
+}
+.searchSection label {
+	display:block;
+	margin-bottom:2px;
+	margin-top:12px;
+}
+.searchSection select {
+	width:49%;
+}
+
+.searchSectionHeader {
+	border-bottom: 1px solid #D3E1EE;
+    color: #42589D;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+.searchSourceType {
+	color:#008000;
+	float: right;
+	font-size: 85%;
+}
+.selectedListItem {
+	background: none repeat scroll 0 0 #DCDCDC;
+    border-radius: 5px;
+	top:25px;
+    padding: 2%;
+    position: absolute;
+    width: 97%;
+}
+
+.selectionFlipper {
+	height:25px;
+	overflow:hidden;
+	position:relative;
+}
+.selectionFlipper > .flipperTrap {
+	height:60px;
+	position:relative;
+}
+.selectionFlipper > .flipperTrap > input {
+	margin-bottom:8px;
+	position:absolute;
+	top:0;
+}
+.tableAlignRight{
+	text-align: right;
+}
+.tableHidden{
+	display: none;
+}
+.tableDisplay{
+	display: block;
+}
+.ui-multiselect-menu {
+	width: 15% !important;
+}
+
+.workFlowStatus {
+    display: inline-block;
+    padding: 4px 3px;
+}
+/* A class used by the jQuery UI CSS framework for their dialogs. */
+.ui-datepicker {
+	left:22px !important;
+	z-index:100 !important;
+}
+
+#bodyContainer {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+#contSearchList {
+	margin-top:-4px;
+    width: 100%;
+}
+
+#custSearchList {
+	margin-top: -4px;
+    width: 100%;
+}
+
+#header {
+    background: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 10px 0px 10px;
+    position: relative;
+    width: 100%;
+}
+#header h2 {
+	font-weight: normal;
+}
+
+#headerControls {
+    position: absolute;
+    right: 20px;
+    top: 27px;
+}
+
+#loadSearchTab {
+	background: none repeat scroll 0 0 #ddd;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: -5%;
+    padding: 10px 5%;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+#loadSelection {
+	background-color:#fdfdfd;
+	font-weight:bold;
+}
+
+#logo {
+    background: url("/applications/pricing/images/logo.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+    background-size: 58px;
+    float: left;
+    height: 58px;
+    padding: 0 20px;
+    width: 58px;
+}
+
+#newButton {
+    background: none repeat scroll 0 0 #009900;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.25em;
+    font-weight: bold;
+    left: calc(50% - 75px);
+    padding: 6px;
+    position: absolute;
+    text-align: center;
+    top: 27px;
+    width: 150px;
+}
+
+#quoteSummaryTable_filter {
+    background: none repeat scroll 0 0 #ddd;
+    left: 0;
+    margin-left: -5%;
+    padding: 12px 0 13px;
+    position: relative;
+    text-align: left;
+    top: 0;
+    width: 100%;
+}
+
+#quoteSummaryTable_filter > label {
+    padding-left: 20px;
+}
+
+#quoteSummaryTable_wrapper > .dt-buttons,
+#quoteTable_wrapper > .dt-buttons {
+    bottom: 0;
+    position: absolute;
+    right: 1em;
+}
+#quoteSummaryTable_wrapper > .dt-buttons > .buttons-excel,
+#quoteTable_wrapper > .dt-buttons > .buttons-excel {
+	background: url("/applications/pricing/images/download.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	border: 0;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+
+	height: 28px;
+	width: 28px;
+}
+#quoteSummaryTable_wrapper > .dt-buttons span,
+#quoteTable_wrapper > .dt-buttons span {
+    display: none;
+}
+
+/*#quoteSummaryTable_wrapper > .DTTT_container {
+	bottom: 23px;
+	position: absolute;
+	right: 4%;
+}
+#quoteSummaryTable_wrapper > .DTTT_container > button.exportXLSBtn,
+#quoteSummaryTable_wrapper > .DTTT_container > div.exportXLSBtn,
+#quoteSummaryTable_wrapper > .DTTT_container > a.exportXLSBtn {
+	background: url("/applications/pricing/images/download.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	border: 0;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 28px;
+}
+
+
+#quoteTable_wrapper > .DTTT_container {
+	bottom: 23px;
+	position: absolute;
+	right: 4%;
+}
+
+#quoteTable_wrapper > .DTTT_container > button.exportXLSBtn,
+#quoteTable_wrapper > .DTTT_container > div.exportXLSBtn,
+#quoteTable_wrapper > .DTTT_container > a.exportXLSBtn {
+	background: url("/applications/pricing/images/download.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	border: 0;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 28px;
+}*/
+
+#quoteTable > tbody > tr > td:nth-child(1) {
+    color: #0000FF;
+    cursor: pointer;
+}
+#quoteTable > tbody > tr.oldRatePropSystem > td:nth-child(1) {
+    color: #333333;
+    cursor: default;
+}
+#quoteTable > tbody > tr > td.dataTables_empty {
+	color:black;
+	cursor:default;
+}
+#quoteTable > tbody > tr > td.newLikeThis {
+	color: #008000;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+#quoteTable_filter {
+    background: none repeat scroll 0 0 #ddd;
+    left: 0;
+    margin-left: -5%;
+    padding: 12px 0 13px;
+    position: relative;
+    text-align: left;
+    top: 0;
+    width: 100%;
+}
+
+#quoteTable_filter > label {
+    padding-left: 20px;
+}
+#quoteSummaryTable > tbody > tr > td:nth-child(1) {
+    color: #0000FF;
+    cursor: pointer;
+}
+#quoteSummaryTable > tbody > tr.oldRatePropSystem > td:nth-child(1) {
+    color: #333333;
+    cursor: default;
+}
+#quoteSummaryTable > tbody > tr > td.dataTables_empty {
+	color:black;
+	cursor:default;
+}
+#quoteSummaryTable > tbody > tr > td.newLikeThis {
+	color: #008000;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+#quoteTableContainer {
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    float: right;
+    height: 737px;
+    position: relative;
+    width: 76.5%;
+}
+
+#quoteTableContainer .dataTables_info {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    clear: both;
+	float:none;
+    padding: 1em 1.4em;
+}
+
+#quoteTableContainer .dataTables_scroll {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    clear: both;
+    padding:2px 1%;
+}
+
+#resetButton {
+	display:inline-block;
+	margin-top: 20px;
+	text-align:center;
+	width:65px;
+}
+
+#searchBlock {
+	background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    float: left;
+    height: 730px;
+    padding: 0 1%  7px;
+    position: relative;
+    width: 20%;
+}
+#searchBlock .ui-multiselect {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 0px;
+	border-color: rgb(169, 169, 169);
+	padding: 4px 3px;
+}
+
+
+#searchButton {
+	display:inline-block;
+	text-align:center;
+	width:65px;
+}
+
+#searchControls {
+	margin: 1% auto 7%;
+    position: relative;
+    width: 60%;
+}
+#searchModeButton {
+    color: #c00;
+    cursor: pointer;
+    display: inline-block;
+    margin: 8px 20px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    right: 0;
+    top: 7px;
+    width: 95px;
+    z-index: 10000;
+
+}
+#searchProposal {
+    display: inline-block;
+	font-size: 1.6em;
+    vertical-align: top;
+}
+
+#sLoading {
+	display:none;
+	left: 45%;
+    top: 230px;
+    z-index: 600;
+}
+#sMask {
+    display: block;
+    height: 595px;
+    left: 0;
+    position: absolute;
+    top: 98px;
+    width: 100%;
+    z-index: 100;
+}
+
+#useLoad {
+	font-style: italic;
+    margin-left: 5%;
+    width: 86%;
+}
+
+#viewButton {
+    display: inline-block;
+	padding:6px;
+    text-align: center;
+    vertical-align: top;
+    width: 35px;
+}

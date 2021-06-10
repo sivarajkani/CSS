@@ -1,0 +1,88 @@
+#email {
+    width: 800px;
+    margin: auto;
+}
+
+#header td:first-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+#header td:nth-child(2) {
+    width: 300px;
+    text-align: left;
+}
+
+#header {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#header p {
+    font-size: 130%;
+}
+
+#header table {
+    margin: auto;
+}
+
+#header img {
+    padding-top: 10px;
+}
+
+.lane {
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.lane table {
+    margin: auto;
+}
+
+#laneInfo td:first-child,#laneInfo td:nth-child(3) {
+    font-weight: bold;
+    text-align: right;
+}
+
+#laneInfo td:nth-child(2) {
+    width: 250px;
+    text-align: left;
+}
+
+#laneInfo td:nth-child(4) {
+    width: 100px;
+    text-align: left;
+}
+
+#rateChart {
+    margin-top: 15px;
+    text-align: left;
+}
+
+#rateChart tr:first-child {
+    font-weight: bold;
+}
+
+#rateChart td:nth-child(1) {
+    width: 250px;
+}
+
+#rateChart td:nth-child(2) {
+    width: 100px;
+}
+
+#rateChart td:nth-child(3) {
+    width: 80px;
+}
+
+#rateChart td:nth-child(4) {
+    width: 100px;
+}
+
+#rateChart td:nth-child(5) {
+    width: 100px;
+}
+
+#rateTotalLabel,#rateTotal {
+    font-weight: bold;
+}

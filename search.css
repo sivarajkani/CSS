@@ -1,0 +1,34 @@
+
+.searchResults {
+	background:none repeat scroll 0 0 white;
+	border-color:#A2BFF0 #558BE3 #558BE3 #A2BFF0;
+	border-style:solid;
+	border-width:1px;
+	color:black;
+	display:block;
+	margin:0;
+	padding: 0;
+	position: absolute;
+    width: 100%;
+	z-index:1000;
+}
+
+.searchResults li{
+	background-color:#FFFFFF;
+	cursor:pointer;
+	list-style-type:none;
+	margin-bottom:2px;
+	padding:2px;
+}
+.searchResults li.selected{
+	background-color:#DDDDDD;
+}
+
+.searchResults li:hover{
+	background:#DDDDDD;
+}
+.searchSourceType {
+	color:#008000;
+	float: right;
+	font-size: 85%;
+}

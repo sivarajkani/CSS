@@ -1,0 +1,138 @@
+/* Defaults for uniformity */
+
+
+a {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+
+body {
+	border: 0;
+    color: #333333;
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font-size:75%;
+	margin: 0;
+	padding: 0;
+    position: relative;
+  	width: 100%;
+}
+
+h1 {
+	color: #cc0000;
+    font-size: 4em;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2.3em;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+h3 {
+    font-size: 1.6em;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+h4 {
+}
+
+h5 {
+    font-weight: bold;
+}
+
+img {
+  border-style: none;
+}
+
+ul, li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.mask {
+    zoom: 1;
+    background:#FFFFFF;
+    filter: alpha(opacity=80);
+    left:1px;
+    opacity: 0.8;
+    position:absolute;
+    top:1px;
+    z-index:5;
+}
+
+.saveButton {
+    background: none repeat scroll 0 0 #c00;
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px 5px;
+    right: 0;
+}
+
+.scrollbar-ruler {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+    position: absolute;
+    top: -9999px;
+}
+
+.searchBox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #999999 #D0D0D0 #D5D5D5;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    line-height: 20px;
+    margin: 10px 5px;
+    padding: 1px 3px 2px;
+    vertical-align: middle;
+    width: 225px;
+}
+.searchBox input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #484848;
+    height: 100%;
+    margin: 3px 0 0;
+    outline: 0 none;
+    padding: 0;
+    width: 98%;
+}
+
+.searchButton {
+    background: none repeat scroll 0 0 #c00;
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px 5px;
+    right: 0;
+}
+
+.searchIcon {
+    background: url("/applications/_globalSource/images/icons/search.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    margin-top: 2px;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+
+.spinner {
+    height:50px;
+    padding:23px;
+    position:absolute;
+    width:50px;
+    z-index:6;
+}

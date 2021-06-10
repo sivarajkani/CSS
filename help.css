@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hotkeyList {
+	margin-left:10%;
+}
+.hotkeyList .heading {
+    color: #0000FF;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.hotkeyList .hotkey {
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.hotkeyList .lrarrowfix {
+    font-size:125%;   
+    margin-left: 3%;
+}
+
+.hotkeyList .udarrowfix {
+    font-size:125%;   
+    margin-left: 5%;
+}
+
+.hotkeyList .hotkeyDesc {
+    margin-left: 8%;
+}
+
+.hotkeyList .hotkeyarrow {
+    margin-left: 6%;
+}
+
+#helpButton {
+	background: url("/applications/pricing/images/help.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: inline-block;
+	height:30px;
+    margin: 1.5em;
+    min-width: 30px;
+	width:30px;
+}
+
+#helpForm {
+    height: 600;
+	padding-bottom: 20px;
+	width:250px;
+}
+#helpForm h2 {
+	margin-top:0;
+}
+#helpForm .title {
+	border-bottom: 1px solid #D3E1EE;
+    color: #7AA6D0;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}

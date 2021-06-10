@@ -1,0 +1,239 @@
+
+
+.custComments {
+	font-size:.9em;
+}
+
+.custCommentControls {
+	display:none;
+    position: absolute;
+    right: -6px;
+    top: 16px;
+}
+.custCommentControls > .control {
+	cursor: pointer;
+	display: inline-block;
+	height: 16px;
+	margin-left: 8px;
+	width: 16px;
+}
+
+.custCommentControls .custDeleteComment {
+	background: url("/applications/pricing/images/delete.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+}
+.custCommentControls .custEditComment {
+	background: url("/applications/pricing/images/pencil.svg") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.custCommentControls .custHistComment {
+	background: url("/applications/pricing/images/history.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+
+.custCommentControlsEditHist {
+	display:block;
+	height: 50%;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.custCommentDate {
+	border-bottom: 1px solid #D3E1EE;
+	color: #42589D;
+	margin-bottom:18px;
+	font-weight: bold;
+	text-align: right;
+	width: 100%;
+}
+
+.custCommentEditor {
+	display:none;
+	width:78%;
+}
+
+.custCommentGrey{
+	opacity: 10%;
+}
+.custCommentText {
+	display:block;
+	margin-top:6px;
+	text-align: justify;
+    width: 78%;
+}
+.custCommentTime {
+	color: #6F7D8A;
+	display: inline-block;
+	float: right;
+	margin-right: 5px;
+	text-align: right;
+	width: 12%;
+}
+.custCommentType {
+	color: #6F7D8A;
+	display: inline-block;
+	width: 15%;
+}
+
+.custCommentUser {
+	color: #6F7D8A;
+	display:inline-block;
+	font-weight:bold;
+	width:70%;
+}
+.custCommentEditIcon {
+	position:relative !important;
+}
+.custCommentListGroup {
+  	height: 350px;
+	overflow-y: auto;
+	padding: 8px;
+}
+.custDetailInfo {
+	display:inline-block;
+	padding: 0 5% 50px 9%;
+}
+
+.custDetailInfo label {
+	color: #9AA9BB;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+.custTypeEditor {
+	color: #6F7D8A;
+	display:none;
+	width: 15%;
+}
+.custTypeSection {
+    color: #42589D;
+	font-weight: bold;
+    margin-top: 5%;
+    text-align: left;
+    width: 100%;
+}
+
+#closeCustComment {
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	right: 1%;
+	top: 1px;
+	z-index: 10;
+}
+
+#custAddress {
+	display:inline-block;
+	margin-top: 10px;
+	width:85%;
+}
+
+#custCommentBox {
+	border: none;
+	height:28px;
+	resize: none;
+	-webkit-transition:all 200ms;
+	transition: all 200ms;
+	width: 97%;
+}
+#custCommentBox.full {
+	height: 48px;
+	margin-bottom: 10px;
+	-webkit-transition:all 200ms;
+	transition: all 200ms;
+	width: 95%;
+}
+
+#custCommentControls {
+	border: 1px solid #AAAAAA;
+	display: inline-block;
+	height: 32px;
+	padding: 8px;
+	position: relative;
+	-webkit-transition:all 200ms;
+	transition: all 200ms;
+	width: 95%;
+}
+#custCommentControls.full {
+	height: 90px;
+	-webkit-transition:all 200ms;
+	transition: all 200ms;
+}
+
+#custCommentControls button {
+	background-color: #7aa6d0;
+	border: none;
+	color: white;
+	display: none;
+	float: right;
+	font-weight: bold;
+	padding: 6px;
+	width: 70px;
+}
+
+#custCommentInput {
+	margin-left:20px;
+	width: 200px;
+}
+
+#custCommentList {
+ 	margin-top: 20px;
+}
+#custCommentList li {
+	margin-bottom:24px;
+	margin-right:2%;
+	position:relative;
+}
+
+#custCommentHistList {
+	background-color: #EFEFEF;
+	font-style: italic;
+	padding: 10px;
+}
+#custCommentHistList .custCommentDate {
+	border-color: #DFDFDF;
+	color: #6F7D8A;
+}
+#custCommentHistList .custCommentText {
+	color: #666666;
+}
+#custCommentHistList .custCommentType {
+	font-weight: bold;
+}
+#custCommentHistList .custCommentUser {
+	font-weight: normal;
+}
+#custCommentHistList li {
+	margin-bottom:18px;
+	margin-right:2%;
+	position:relative;
+}
+
+#custCommentGroup {
+	display:inline-block;
+	float:right;
+	height:100%;
+	width:60%;
+}
+#custCommentType {
+    display: none;
+	float: right;
+	margin-right: 2%;
+}
+#custDetailGroup {
+	border-right: 1px solid #AFAFAF;
+	float:left;
+	width:34%;
+}
+#custDetailGroup > label {
+	font-weight:bold;
+	font-size: medium;
+}
+#custDetailGroup h2 {
+	margin-top: 0;
+}
+#custDetailGroup p {
+	color: #6F7D8A;
+	font-size: 1.3em;
+	margin:5px 0 0 0;
+}

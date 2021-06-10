@@ -1,0 +1,217 @@
+.entryBox {
+	padding: 4px 3px;
+}
+
+.massUpdateSection {
+	color: black;
+	flex: 1 auto;
+	-ms-flex: 1 auto;
+	padding: 1% 2%;
+}
+.massUpdateSection > button {
+	margin-left: 10px;
+}
+.massUpdateSection > div {
+	margin-left: 10px;
+}
+.massUpdateSection > label {
+	display: block;
+	margin: 15px 0 5px 10px;
+}
+.massUpdateSection select {
+	min-width: 60%
+}
+.massUpdateSection > ul {
+	margin-top: 15px;
+}
+
+.massUpdateSection > .sectionHeader {
+	border-bottom: 1px solid #D3E1EE;
+	color: #42589D;
+	font-weight: bold;
+	margin:0;
+	text-align: left;
+	width: 95%;
+}
+
+.massUpdateFilterBling {
+  background: none repeat scroll 0 0 #FFE800;
+  float: none;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+    
+}
+
+.removeSelectedItem {
+	background: url("/applications/pricing/images/close.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+	cursor:pointer;
+	float: right;
+	height: 12px;
+	margin: 2px 2px 1px;
+	width: 12px;
+}
+
+.selectedListItem {
+	background: none repeat scroll 0 0 #DCDCDC;
+	border-radius: 5px;
+	top:26px;
+	padding: 2%;
+	position: absolute;
+	width: 97%;
+}
+
+.selectionFlipper {
+	height:26px;
+	overflow:hidden;
+	position:relative;
+}
+.selectionFlipper > .flipperTrap {
+	height:60px;
+	position:relative;
+}
+.selectionFlipper > .flipperTrap > input {
+	margin-bottom:8px;
+	position:absolute;
+	top:0;
+}
+
+.updlanetype {
+	display: inline-block;
+	padding: 4px 3px;
+}
+.updlanetype label {
+	margin-left:10px;
+	margin-right:5px;
+}
+
+.updlinehaul {
+	display: inline-block;
+
+}
+.updlinehaul label {
+	margin-left:10px;
+	margin-right:5px;
+}
+
+.upddateBox{
+	display:inline-block;
+	padding: 4px 3px;
+}
+
+.upddateBox label {
+	margin-left:10px;
+	margin-right:5px;
+}
+.updGeo {
+	display: block;
+	padding: 4px 3px;
+}
+.updGeo label {
+	margin-left:10px;
+	margin-right:5px;
+}
+.updaccessorials {
+	display: block;
+	margin-left: 30%;
+	padding: 4px 3px;
+}
+
+#accessorialsList {
+}
+#accessorialsList span {
+	text-transform: capitalize;
+}
+
+#massRerate {
+	background: url("/applications/pricing/images/refreshBlue.png") no-repeat scroll right 0 transparent;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+    height: 17px;
+    margin-right: 1%;
+    width: 17px;
+}
+#massUpdateBlock {
+	background: none repeat scroll 0 0 white;
+	border-radius: 0 0 5px 5px;
+    display: none;
+	flex-flow: row wrap;
+	-mx-flex-flow: row wrap;
+    height: auto;
+	padding-top: 11px;
+    z-index: 1000;
+}
+
+#massUpdateDtls {
+	border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+}
+
+#massUpdateGeo {
+	border-color: #DDDDDD;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+}
+
+#massUpdateHeader {
+	background-color: #DDDDDD;
+	flex: 1 100%;
+	-ms-flex: 1 100%;
+	padding: 8px;
+}
+
+#updGeoSearchList {
+	background:none repeat scroll 0 0 white;
+	border-color:#A2BFF0 #558BE3 #558BE3 #A2BFF0;
+	border-style:solid;
+	border-width:1px;
+	color:black;
+	display:none;
+	margin:-5px 0 0 10px;
+	padding: 0;
+	position:absolute;
+	width:30%;
+	z-index:1000;
+}
+#massUpdateTitle {
+  font-weight: bold;
+  font-size: 125%;
+  margin-left: 1%;
+    
+}
+
+#massUpdateUser{
+	min-width: 30%
+}
+#massUpdateUserType{
+	min-width: 30%
+}
+
+#updAllButton {
+	background: none repeat scroll 0 0 #c00;
+    color: #FFFFFF;
+    display: inline-block;
+    float: right;
+    font-size: 10pt;
+    font-weight: bold;
+	padding: 5px;
+}
+#updAllButton.disabled {
+	cursor: default;
+    opacity: .65;
+}
+
+#updlinehauluom {
+	min-width: 20%;
+	width: 20%;
+}
+
+#updWorkFlowStatus  label {
+	display: inline-block;
+	float: right;
+	padding: 4px 3px;
+}
+
+

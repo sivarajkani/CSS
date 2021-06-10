@@ -1,0 +1,114 @@
+
+
+
+
+.loads {
+	font-size:.9em;
+}
+
+.loadListControls {
+	display:none;
+	float:left;
+	height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15%;
+}
+.loadListControls .deleteLoad {
+	background: url("/applications/pricing/images/delete.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 15px;
+    position: absolute;
+    width: 100%;
+}
+
+.loadEditor {
+	display:none;
+	width:85%;
+}
+.loadText {
+	display:block;
+	margin-top:6px;
+	text-align: justify;
+    width: 85%;
+}
+
+.loadEditIcon {
+	position:relative !important;
+}
+
+#dayOfWeekList {
+	background: none repeat scroll 0 0 white;
+    border-color: #a2bff0;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    color: black;
+    float: left;
+    width: 45%;
+}
+
+#dayOfWeekList li {
+	cursor:pointer;
+	list-style-type:none;
+	margin-bottom:2px;
+	padding:0px;
+}
+
+#loadBox {
+	height: 10%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+#loadListControls {
+	display: none;
+    float: left;
+    height: 100%;
+    margin-bottom: 2px;
+    margin-right: 2%;
+    padding-left: 5%;
+    position: relative;
+    width: 40%;
+}
+	
+
+#loadInput {
+	margin-left:20px;
+	width: 50%;
+}
+
+#loadList {
+	max-height: 100px;
+	overflow-y: auto;
+}
+#loadList li {
+	margin-bottom:2%;
+	margin-left: 16%;
+	margin-top:4%;
+	position:relative;
+}
+
+.shipCondAsterisk {
+	color: #1FB118;
+	display: none;
+	font-size: 1.7em;
+	margin-left: 5px;
+	position: absolute;
+	top: 0px;
+}
+
+#shipCondDropdown {
+	background: none repeat scroll 0 0 white;
+    border-color: #858585;
+	border-style:solid;
+	border-width: 0px 1px 1px 1px;
+    display: none;
+   /*left: 5% */ 
+    padding: 2%;
+    position: absolute;
+   /*top: 26px;*/
+    width: 95%;
+    z-index: 1000;
+}
